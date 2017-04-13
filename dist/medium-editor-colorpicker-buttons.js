@@ -3312,7 +3312,7 @@ exports.get = function (MediumEditor) {
     return {
         ColorPickerFormAbstractClass: ColorPickerFormAbstractClass,
         TextColorButtonClass: TextColorButtonClass,
-        version: "0.0.1"
+        version: "0.0.2"
     };
 };
 
