@@ -18,7 +18,7 @@
     "webpack": "^2.3.3"
   },
   "scripts": {
-    "release": "git add . && ./node_modules/.bin/standard-version -- -a -i CHANGELOG",
+    "release": "git add . && ./node_modules/.bin/standard-version -a -i CHANGELOG",
     "build": "webpack",
     "prerelease": "npm run build"
   },
