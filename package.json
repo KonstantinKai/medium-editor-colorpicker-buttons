@@ -1,0 +1,28 @@
+{
+  "name": "medium-editor-colorpicker-buttons",
+  "version": "0.0.1",
+  "main": "./dist/medium-editor-colorpicker-buttons.min.js",
+  "author": "KonstantinKai",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "lodash.merge": "^4.6.0",
+    "standard-version": "^4.0.0",
+    "style-loader": "^0.16.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "uglifyjs-webpack-plugin": "^0.4.2",
+    "webpack": "^2.3.3"
+  },
+  "scripts": {
+    "release": "git add . && ./node_modules/.bin/standard-version -- -a -i CHANGELOG",
+    "build": "webpack",
+    "prerelease": "npm run build"
+  },
+  "files": [
+    "dist/"
+  ]
+}

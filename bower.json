@@ -1,0 +1,21 @@
+{
+  "name": "medium-editor-colorpicker-buttons",
+  "description": "",
+  "main": "./dist/medium-editor-colorpicker-buttons.min.js",
+  "authors": [
+    "KonstantinKai"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flexi-color-picker": "^1.0.3",
+    "medium-editor": "^5.23.0"
+  }
+}
